@@ -30,7 +30,7 @@ public class HerramientasModel {
 
 
     @NotNull(message = "La cantidad es obligatoria")
-    @Min(value = 1, message = "La cantidad debe ser al menos 1")
+    @Min(value = 0, message = "La cantidad debe ser al menos 1")
     @Column(nullable = false)
     private Integer cantidad;
 
